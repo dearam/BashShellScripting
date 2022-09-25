@@ -1,0 +1,45 @@
+SHELL|BASH PROGRAMMING:
+-----------------------
+	#.shell programming is intrpreted language not compiled lang.
+	#.intrepreted by our operating system
+
+open terminal shortcut key - Ctrl+Alt+t
+
+LETS DIVE IN IT:
+-----------------
+>cat /etc/shells - this is used for diffirent kind of system supporting shells.
+
+/bin/sh         - sh stands born shell(original shell) for system
+/bin/bash
+/usr/bin/bash   - born again shell(its reinvented before sh)
+/bin/rbash
+/usr/bin/rbash
+/usr/bin/sh
+/bin/dash
+/usr/bin/dash
+
+gnu shell - now used shell
+
+>which bash     -  this is used for found the location
+
+/usr/bin/bash
+
+>clear 	        - this is used to clear the screen
+
+>touch hello.sh - touch keyword is used for creating a file
+				- we named that file as hello.sh 
+				- shell file is described as .sh
+
+>ls             - ls stand for 'list' of file present in that directory
+>ls -al         - its used for all listed files in that directory with hidden also
+total 8
+drwxr-xr-x  2 dearam dearam 4096 Sep 24 15:35 .
+drwxr-x--- 26 dearam dearam 4096 Aug 20 21:08 ..
+-rw-rw-r--  1 dearam dearam    0 Sep 24 15:35 hello.py
+-rw-rw-r--  1 dearam dearam    0 Sep 24 15:33 hello.sh  - here -rw means we can read and write that file
+
+>subl hello.sh  - used to open the sublime text for particular file
+
+
+ 
+
